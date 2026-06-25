@@ -2,15 +2,18 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #f7f2e8;
-    background:
-        linear-gradient(rgba(7, 7, 7, 0.88), rgba(7, 7, 7, 0.92)),
-        url("download (15).jpg") center / cover fixed;
-}
+    min-height: 100vh;
 
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("image/Giga Chad gang Assemble.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 main {
     width: min(1000px, calc(100% - 32px));
     margin: 0 auto;
