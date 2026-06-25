@@ -9,7 +9,7 @@ body {
     color: #f7f2e8;
     background:
         linear-gradient(rgba(8, 8, 8, 0.82), rgba(8, 8, 8, 0.9)),
-        url(images/test.jpg) center / cover fixed;
+        url("image/test.jpg") center / cover fixed;
 }
 
 a {
